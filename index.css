@@ -1,0 +1,83 @@
+
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff;
+      background: url("images/philip bieng.jpg")  rgb(33, 55, 0.3);
+      object-fit: cover;
+      color: #1e293b;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+    }
+    .overlay{margin: 0;
+    width: 100vh;
+    height: 100vh;
+    background-image: transparent;
+    overflow: hidden;
+
+}
+    header {
+      background-color: #f59e0b;
+      background-image: url("");
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .video-bg{
+        object-fit: cover;
+        min-width: 100%;
+        min-height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .video-section {margin-left: 400px;
+    top: 0;
+    height: 400px;
+    width: 500px;
+
+}
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      color: white;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #f59e0b;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {color: white;}
+    footer {
+      background-color: #1e293b;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    a {
+      color: #f59e0b;
+      text-decoration: none;
+    }
+    .download-btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #f59e0b;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+    .download-btn:hover {
+      background-color: #d97706;
+    }
+p{color: white;
+font-weight: bold;
+}
