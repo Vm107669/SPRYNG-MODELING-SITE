@@ -32,7 +32,7 @@
         left: 0;
         z-index: -1;
     }
-    .video-section {margin-left: 400px;
+    .video-section {margin-left: 480px;
     top: 0;
     height: 400px;
     width: 500px;
@@ -80,4 +80,63 @@
     }
 p{color: white;
 font-weight: bold;
+}
+
+@media screen and (max-width:768px) { header{background-color: #f59e0b;
+  background-image: url("");
+  color: white;
+  padding: 2rem;
+  text-align: center;
+width: 100%;
+}
+
+body{margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  background: url("images/philip bieng.jpg")  rgb(33, 55, 0.3);
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  color: #1e293b;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.video-section {margin-left: 150px;
+  top: 0;
+  height: 200px;
+  width: 400px;
+
+}
+
+footer {
+  background-color: #1e293b;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  max-width: 100vw;
+
+}
+}
+
+@media screen and (max-width:390) {
+  .video-section {margin-left: 20px;
+    top: 0;
+    height: 90px;
+    width: 100px;
+    justify-content: center;
+  
+  }
+
+}
+
+
+@media screen and (max-width:844) {
+  .video-section {margin-left: 10px;
+    top: 0;
+    height: 90px;
+    width: 90px;
+    justify-content: center;
+  
+  }
 }
